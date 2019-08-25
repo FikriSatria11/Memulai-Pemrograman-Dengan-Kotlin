@@ -5,12 +5,15 @@ fun main() {
     val lastChar = text["last"]
 
     // TODO 2
-    println()
+    println("""
+        $firstChar
+        $lastChar
+    """.trimIndent())
 
 }
 
 // TODO 1
-fun String.getFirstAndLast() = mapOf(
+fun String.getFirstAndLast() = mapOf<String,Char>(
         "first" to this.first(),
         "last" to this.last()
 )
