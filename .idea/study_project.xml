@@ -1260,7 +1260,7 @@
                                       <option name="answerPlaceholders">
                                         <list />
                                       </option>
-                                      <option name="highlightErrors" value="false" />
+                                      <option name="highlightErrors" value="true" />
                                       <option name="name" value="src/App.kt" />
                                       <option name="text" value="// main function&#10;fun main() {&#10;    val name = &quot;Kotlin&quot;&#10;    val old = 19&#10;    print(&quot;My name is $name, im $old years old&quot;)&#10;}" />
                                       <option name="trackChanges" value="true" />
@@ -2129,7 +2129,7 @@
                                       <option name="answerPlaceholders">
                                         <list />
                                       </option>
-                                      <option name="highlightErrors" value="false" />
+                                      <option name="highlightErrors" value="true" />
                                       <option name="name" value="src/App.kt" />
                                       <option name="text" value="// main function&#10;fun main() {&#10;    val ranges = 1..5&#10;&#10;    for (i in ranges){&#10;        println(&quot;value is $i!&quot;)&#10;    }&#10;}" />
                                       <option name="trackChanges" value="true" />
@@ -2561,7 +2561,7 @@
                                       <option name="answerPlaceholders">
                                         <list />
                                       </option>
-                                      <option name="highlightErrors" value="false" />
+                                      <option name="highlightErrors" value="true" />
                                       <option name="name" value="src/App.kt" />
                                       <option name="text" value="// main function&#10;fun main() {&#10;    loop@ for (i in 1..10) {&#10;        println(&quot;Outside Loop&quot;)&#10;&#10;        for (j in 1..10) {&#10;            println(&quot;Inside Loop&quot;)&#10;            if ( j &gt; 5) break@loop&#10;        }&#10;    }&#10;}" />
                                       <option name="trackChanges" value="true" />
@@ -3304,7 +3304,7 @@
                             <option name="index" value="1" />
                             <option name="name" value="Latihan" />
                             <option name="record" value="-1" />
-                            <option name="status" value="Unchecked" />
+                            <option name="status" value="Failed" />
                             <option name="files">
                               <map>
                                 <entry key="src/Task.kt">
@@ -3313,7 +3313,7 @@
                                       <option name="answerPlaceholders">
                                         <list />
                                       </option>
-                                      <option name="highlightErrors" value="false" />
+                                      <option name="highlightErrors" value="true" />
                                       <option name="name" value="src/Task.kt" />
                                       <option name="text" value="fun main() {&#10;&#10;    // TODO 1&#10;    val user = mapOf&lt;String, String&gt;()&#10;&#10;    // TODO 2&#10;    val name = user.getValue(&quot;&quot;)&#10;    val age = user.getValue(&quot;&quot;)&#10;    val address = user.getValue(&quot;&quot;)&#10;&#10;    // TODO 3&#10;    println()&#10;&#10;}" />
                                       <option name="trackChanges" value="true" />
